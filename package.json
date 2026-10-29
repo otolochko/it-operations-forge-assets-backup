@@ -6,7 +6,7 @@
   "type": "module",
   "description": "Private Forge app that backs up Jira Service Management Assets schemas on a schedule",
   "dependencies": {
-    "@forge/api": "^8.3.0",
+    "@forge/api": "^8.4.0",
     "@forge/events": "^3.0.9",
     "@forge/kvs": "^2.1.1",
     "@forge/object-store": "^3.0.3",
