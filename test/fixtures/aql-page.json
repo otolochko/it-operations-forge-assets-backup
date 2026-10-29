@@ -1,0 +1,298 @@
+{
+  "startAt": 0,
+  "maxResults": 500,
+  "total": 2,
+  "isLast": true,
+  "hasMoreResults": true,
+  "values": [
+    {
+      "id": "1",
+      "label": "=cmd|' /C calc'!A0",
+      "objectKey": "DVC-1",
+      "created": "2025-06-10T07:35:20.557Z",
+      "updated": "2025-06-10T07:41:06.398Z",
+      "avatar": {
+        "mediaClientConfig": {
+          "mediaJwtToken": "SECRET-TOKEN"
+        }
+      },
+      "objectType": {
+        "id": "186",
+        "name": "Devices"
+      },
+      "attributes": [
+        {
+          "objectTypeAttributeId": "2",
+          "id": "2",
+          "objectAttributeValues": [
+            {
+              "displayValue": "=cmd|' /C calc'!A0",
+              "searchValue": "=cmd|' /C calc'!A0",
+              "referencedType": false,
+              "value": "=cmd|' /C calc'!A0"
+            }
+          ],
+          "objectId": "1"
+        },
+        {
+          "objectTypeAttributeId": "1",
+          "id": "1",
+          "objectAttributeValues": [
+            {
+              "displayValue": "DVC-1",
+              "searchValue": "DVC-1",
+              "referencedType": false,
+              "value": "DVC-1"
+            }
+          ],
+          "objectId": "1"
+        },
+        {
+          "objectTypeAttributeId": "3",
+          "id": "3",
+          "objectAttributeValues": [
+            {
+              "displayValue": "10/Jun/25 7:35 AM",
+              "searchValue": "x",
+              "referencedType": false,
+              "value": "2025-06-10T07:35:20.557Z"
+            }
+          ],
+          "objectId": "1"
+        },
+        {
+          "objectTypeAttributeId": "5",
+          "id": "5",
+          "objectAttributeValues": [
+            {
+              "displayValue": "In Stock",
+              "searchValue": "In Stock",
+              "referencedType": false,
+              "status": {
+                "id": "18",
+                "name": "In Stock",
+                "description": "d",
+                "category": 1,
+                "objectSchemaId": "4"
+              }
+            }
+          ],
+          "objectId": "1"
+        },
+        {
+          "objectTypeAttributeId": "6",
+          "id": "6",
+          "objectAttributeValues": [
+            {
+              "displayValue": "Jane Doe (jane@example.com)",
+              "searchValue": "abc",
+              "referencedType": false,
+              "user": {
+                "avatarUrl": "u",
+                "displayName": "Jane Doe",
+                "name": "Jane Doe",
+                "key": "5b10ac8d82e05b22cc7d4ef5",
+                "emailAddress": "jane@example.com",
+                "isDeleted": false
+              }
+            },
+            {
+              "displayValue": "Bob (bob@example.com)",
+              "searchValue": "def",
+              "referencedType": false,
+              "user": {
+                "displayName": "Bob",
+                "key": "5b10ac8d82e05b22cc7d4ef6",
+                "emailAddress": "bob@example.com"
+              }
+            }
+          ],
+          "objectId": "1"
+        },
+        {
+          "objectTypeAttributeId": "7",
+          "id": "7",
+          "objectAttributeValues": [
+            {
+              "displayValue": "Floor, 3",
+              "searchValue": "HR-77",
+              "referencedType": true,
+              "referencedObject": {
+                "id": "77",
+                "label": "Floor, 3",
+                "objectKey": "HR-77",
+                "avatar": {
+                  "mediaClientConfig": {
+                    "mediaJwtToken": "SECRET-TOKEN"
+                  }
+                },
+                "objectType": {
+                  "id": "3"
+                }
+              }
+            }
+          ],
+          "objectId": "1"
+        },
+        {
+          "objectTypeAttributeId": "8",
+          "id": "8",
+          "objectAttributeValues": [
+            {
+              "displayValue": "red",
+              "searchValue": "red",
+              "referencedType": false,
+              "value": "red"
+            },
+            {
+              "displayValue": "blue",
+              "searchValue": "blue",
+              "referencedType": false,
+              "value": "blue"
+            }
+          ],
+          "objectId": "1"
+        },
+        {
+          "objectTypeAttributeId": "9",
+          "id": "9",
+          "objectAttributeValues": [
+            {
+              "displayValue": "10/Jun/25",
+              "searchValue": "2025-06-10",
+              "referencedType": false,
+              "value": "2025-06-10"
+            }
+          ],
+          "objectId": "1"
+        },
+        {
+          "objectTypeAttributeId": "10",
+          "id": "10",
+          "objectAttributeValues": [
+            {
+              "displayValue": "line one\nline \"two\"",
+              "searchValue": "line one\nline \"two\"",
+              "referencedType": false,
+              "value": "line one\nline \"two\""
+            }
+          ],
+          "objectId": "1"
+        },
+        {
+          "objectTypeAttributeId": "11",
+          "id": "11",
+          "objectAttributeValues": [
+            {
+              "displayValue": "A",
+              "searchValue": "HR-78",
+              "referencedType": true,
+              "referencedObject": {
+                "id": "78",
+                "label": "A",
+                "objectKey": "HR-78",
+                "avatar": {
+                  "mediaClientConfig": {
+                    "mediaJwtToken": "SECRET-TOKEN"
+                  }
+                },
+                "objectType": {
+                  "id": "3"
+                }
+              }
+            },
+            {
+              "displayValue": "B",
+              "searchValue": "HR-79",
+              "referencedType": true,
+              "referencedObject": {
+                "id": "79",
+                "label": "B",
+                "objectKey": "HR-79",
+                "avatar": {
+                  "mediaClientConfig": {
+                    "mediaJwtToken": "SECRET-TOKEN"
+                  }
+                },
+                "objectType": {
+                  "id": "3"
+                }
+              }
+            }
+          ],
+          "objectId": "1"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "label": "Plain",
+      "objectKey": "DVC-2",
+      "created": "2025-06-10T07:35:20.557Z",
+      "updated": "2025-06-10T07:41:06.398Z",
+      "avatar": {
+        "mediaClientConfig": {
+          "mediaJwtToken": "SECRET-TOKEN"
+        }
+      },
+      "objectType": {
+        "id": "186",
+        "name": "Devices"
+      },
+      "attributes": [
+        {
+          "objectTypeAttributeId": "2",
+          "id": "2",
+          "objectAttributeValues": [
+            {
+              "displayValue": "Plain",
+              "searchValue": "Plain",
+              "referencedType": false,
+              "value": "Plain"
+            }
+          ],
+          "objectId": "1"
+        },
+        {
+          "objectTypeAttributeId": "1",
+          "id": "1",
+          "objectAttributeValues": [
+            {
+              "displayValue": "DVC-2",
+              "searchValue": "DVC-2",
+              "referencedType": false,
+              "value": "DVC-2"
+            }
+          ],
+          "objectId": "1"
+        },
+        {
+          "objectTypeAttributeId": "3",
+          "id": "3",
+          "objectAttributeValues": [
+            {
+              "displayValue": "10/Jun/25 7:35 AM",
+              "searchValue": "x",
+              "referencedType": false,
+              "value": "2025-06-10T07:35:20.557Z"
+            }
+          ],
+          "objectId": "1"
+        },
+        {
+          "objectTypeAttributeId": "99",
+          "id": "99",
+          "objectAttributeValues": [
+            {
+              "displayValue": "unknown attr",
+              "searchValue": "u",
+              "referencedType": false,
+              "avatar": "SECRET-TOKEN"
+            }
+          ],
+          "objectId": "2"
+        }
+      ]
+    }
+  ]
+}

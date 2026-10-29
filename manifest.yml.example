@@ -1,0 +1,43 @@
+modules:
+  scheduledTrigger:
+    - key: backup-tick
+      function: tick
+      interval: hour
+  consumer:
+    - key: backup-consumer
+      queue: backup
+      function: consume
+  jira:adminPage:
+    - key: backups-page
+      resource: main
+      title: Assets Backups
+      icon: resource:main;icon.svg
+      layout: blank
+      resolver:
+        function: resolver
+  objectStore:
+    - key: fos
+      storageClass: standard
+  function:
+    - key: tick
+      handler: index.tick
+    - key: consume
+      handler: index.consumeBackup
+      timeoutSeconds: 900
+    - key: resolver
+      handler: index.resolverHandler
+resources:
+  - key: main
+    path: static/main/build
+permissions:
+  scopes:
+    - read:servicedesk-request
+    - read:cmdb-schema:jira
+    - read:cmdb-type:jira
+    - read:cmdb-object:jira
+    - read:cmdb-attribute:jira
+    - storage:app
+app:
+  runtime:
+    name: nodejs24.x
+  id: ari:cloud:ecosystem::app/REPLACE_ME

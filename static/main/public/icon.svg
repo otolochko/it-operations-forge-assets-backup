@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#5A6B8C"/>
+      <stop offset="1" stop-color="#253350"/>
+    </linearGradient>
+  </defs>
+  <rect width="144" height="144" rx="32" fill="url(#bg)"/>
+  <!-- objects: three rows, each with a type marker -->
+  <g fill="#FFFFFF">
+    <rect x="32" y="22" width="13" height="13" rx="4" fill-opacity="0.55"/>
+    <rect x="51" y="22" width="61" height="13" rx="6.5" fill-opacity="0.55"/>
+    <rect x="32" y="41" width="13" height="13" rx="4" fill-opacity="0.8"/>
+    <rect x="51" y="41" width="61" height="13" rx="6.5" fill-opacity="0.8"/>
+    <rect x="32" y="60" width="13" height="13" rx="4"/>
+    <rect x="51" y="60" width="61" height="13" rx="6.5"/>
+  </g>
+  <!-- clock hands: scheduled -->
+  <path d="M72 94 V104 L79 109" fill="none" stroke="#FFFFFF" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- amber history arrow: kept and restorable -->
+  <path d="M52 104 A20 20 0 1 1 54.7 114" fill="none" stroke="#FFAB00" stroke-width="8" stroke-linecap="round"/>
+  <path d="M44 96.5 L52 105 L60 96.5" fill="none" stroke="#FFAB00" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

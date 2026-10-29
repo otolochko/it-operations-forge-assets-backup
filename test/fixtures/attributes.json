@@ -1,0 +1,272 @@
+[
+  {
+    "workspaceId": "w",
+    "globalId": "w:1",
+    "id": "1",
+    "name": "Key",
+    "displayName": "Key",
+    "label": false,
+    "system": true,
+    "type": 0,
+    "position": 0,
+    "editable": false,
+    "hidden": false,
+    "minimumCardinality": 0,
+    "maximumCardinality": 1,
+    "uniqueAttribute": false,
+    "options": "",
+    "objectType": {
+      "id": "186",
+      "name": "Devices"
+    },
+    "defaultType": {
+      "id": 0,
+      "name": "Text"
+    }
+  },
+  {
+    "workspaceId": "w",
+    "globalId": "w:2",
+    "id": "2",
+    "name": "Name",
+    "displayName": "Name",
+    "label": true,
+    "system": false,
+    "type": 0,
+    "position": 1,
+    "editable": true,
+    "hidden": false,
+    "minimumCardinality": 0,
+    "maximumCardinality": 1,
+    "uniqueAttribute": false,
+    "options": "",
+    "objectType": {
+      "id": "186",
+      "name": "Devices"
+    },
+    "defaultType": {
+      "id": 0,
+      "name": "Text"
+    }
+  },
+  {
+    "workspaceId": "w",
+    "globalId": "w:3",
+    "id": "3",
+    "name": "Created",
+    "displayName": "Created",
+    "label": false,
+    "system": true,
+    "type": 0,
+    "position": 2,
+    "editable": false,
+    "hidden": false,
+    "minimumCardinality": 0,
+    "maximumCardinality": 1,
+    "uniqueAttribute": false,
+    "options": "",
+    "objectType": {
+      "id": "186",
+      "name": "Devices"
+    },
+    "defaultType": {
+      "id": 6,
+      "name": "DateTime"
+    }
+  },
+  {
+    "workspaceId": "w",
+    "globalId": "w:4",
+    "id": "4",
+    "name": "Updated",
+    "displayName": "Updated",
+    "label": false,
+    "system": true,
+    "type": 0,
+    "position": 3,
+    "editable": false,
+    "hidden": false,
+    "minimumCardinality": 0,
+    "maximumCardinality": 1,
+    "uniqueAttribute": false,
+    "options": "",
+    "objectType": {
+      "id": "186",
+      "name": "Devices"
+    },
+    "defaultType": {
+      "id": 6,
+      "name": "DateTime"
+    }
+  },
+  {
+    "workspaceId": "w",
+    "globalId": "w:5",
+    "id": "5",
+    "name": "Status",
+    "displayName": "Status",
+    "label": false,
+    "system": false,
+    "type": 7,
+    "position": 4,
+    "editable": true,
+    "hidden": false,
+    "minimumCardinality": 0,
+    "maximumCardinality": 1,
+    "uniqueAttribute": false,
+    "options": "",
+    "objectType": {
+      "id": "186",
+      "name": "Devices"
+    },
+    "typeValueMulti": [
+      "18",
+      "9"
+    ]
+  },
+  {
+    "workspaceId": "w",
+    "globalId": "w:6",
+    "id": "6",
+    "name": "Owner",
+    "displayName": "Owner",
+    "label": false,
+    "system": false,
+    "type": 2,
+    "position": 5,
+    "editable": true,
+    "hidden": false,
+    "minimumCardinality": 0,
+    "maximumCardinality": -1,
+    "uniqueAttribute": false,
+    "options": "",
+    "objectType": {
+      "id": "186",
+      "name": "Devices"
+    }
+  },
+  {
+    "workspaceId": "w",
+    "globalId": "w:7",
+    "id": "7",
+    "name": "Parent",
+    "displayName": "Parent",
+    "label": false,
+    "system": false,
+    "type": 1,
+    "position": 6,
+    "editable": true,
+    "hidden": false,
+    "minimumCardinality": 0,
+    "maximumCardinality": 1,
+    "uniqueAttribute": false,
+    "options": "",
+    "objectType": {
+      "id": "186",
+      "name": "Devices"
+    },
+    "referenceObjectTypeId": "3",
+    "referenceType": {
+      "id": "rt1",
+      "name": "Reference",
+      "color": "x"
+    }
+  },
+  {
+    "workspaceId": "w",
+    "globalId": "w:8",
+    "id": "8",
+    "name": "Tags",
+    "displayName": "Tags",
+    "label": false,
+    "system": false,
+    "type": 0,
+    "position": 7,
+    "editable": true,
+    "hidden": false,
+    "minimumCardinality": 0,
+    "maximumCardinality": -1,
+    "uniqueAttribute": false,
+    "options": "a,b,c",
+    "objectType": {
+      "id": "186",
+      "name": "Devices"
+    },
+    "defaultType": {
+      "id": 10,
+      "name": "Select"
+    }
+  },
+  {
+    "workspaceId": "w",
+    "globalId": "w:9",
+    "id": "9",
+    "name": "Due",
+    "displayName": "Due",
+    "label": false,
+    "system": false,
+    "type": 0,
+    "position": 8,
+    "editable": true,
+    "hidden": false,
+    "minimumCardinality": 0,
+    "maximumCardinality": 1,
+    "uniqueAttribute": false,
+    "options": "",
+    "objectType": {
+      "id": "186",
+      "name": "Devices"
+    },
+    "defaultType": {
+      "id": 4,
+      "name": "Date"
+    }
+  },
+  {
+    "workspaceId": "w",
+    "globalId": "w:10",
+    "id": "10",
+    "name": "Notes",
+    "displayName": "Notes",
+    "label": false,
+    "system": false,
+    "type": 0,
+    "position": 9,
+    "editable": true,
+    "hidden": false,
+    "minimumCardinality": 0,
+    "maximumCardinality": 1,
+    "uniqueAttribute": false,
+    "options": "",
+    "objectType": {
+      "id": "186",
+      "name": "Devices"
+    },
+    "defaultType": {
+      "id": 9,
+      "name": "Textarea"
+    }
+  },
+  {
+    "workspaceId": "w",
+    "globalId": "w:11",
+    "id": "11",
+    "name": "Peers",
+    "displayName": "Peers",
+    "label": false,
+    "system": false,
+    "type": 1,
+    "position": 10,
+    "editable": true,
+    "hidden": false,
+    "minimumCardinality": 0,
+    "maximumCardinality": -1,
+    "uniqueAttribute": false,
+    "options": "",
+    "objectType": {
+      "id": "186",
+      "name": "Devices"
+    },
+    "referenceObjectTypeId": "3"
+  }
+]

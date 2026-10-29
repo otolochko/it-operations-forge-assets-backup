@@ -1,0 +1,19 @@
+# Synced from it-operations-forge-template by scripts/sync.sh, do not edit in an app.
+version: 2
+updates:
+  - package-ecosystem: npm
+    directories:
+      - "/"
+      - "/static/*"
+    schedule:
+      interval: monthly
+    groups:
+      npm-minor-patch:
+        patterns: ["*"]
+        update-types: ["minor", "patch"]
+    ignore:
+      # We stay on ESLint 9.
+      - dependency-name: eslint
+        update-types: ["version-update:semver-major"]
+      - dependency-name: "@eslint/js"
+        update-types: ["version-update:semver-major"]

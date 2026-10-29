@@ -1,0 +1,30 @@
+{
+  "name": "it-operations-forge-assets-backup",
+  "version": "0.0.1",
+  "private": true,
+  "license": "MIT",
+  "type": "module",
+  "description": "Private Forge app that backs up Jira Service Management Assets schemas on a schedule",
+  "dependencies": {
+    "@forge/api": "^8.3.0",
+    "@forge/events": "^3.0.9",
+    "@forge/kvs": "^2.1.1",
+    "@forge/object-store": "^3.0.3",
+    "@forge/resolver": "^2.0.2",
+    "fflate": "^0.8.3"
+  },
+  "devDependencies": {
+    "vitest": "^5.0.5"
+  },
+  "scripts": {
+    "setup": "git config core.hooksPath .githooks && npm ci && npm --prefix static/main ci",
+    "lint": "npm --prefix static/main run lint",
+    "test": "vitest run --passWithNoTests",
+    "build": "npm --prefix static/main run build",
+    "check:fast": "node scripts/check-rules.mjs && npm run lint",
+    "check": "npm run check:fast && npm test && npm run build && node scripts/check-rules.mjs --bundle"
+  },
+  "config": {
+    "maxBundleKb": 500
+  }
+}

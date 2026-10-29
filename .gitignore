@@ -1,0 +1,9 @@
+node_modules/
+.env
+.claude/
+
+# Forge manifest with the registered app id; commit manifest.yml.example instead
+manifest.yml
+
+# UI build output (forge deploy needs it, build before deploy)
+static/main/build/
